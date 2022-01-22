@@ -16,12 +16,8 @@ body {
 h1 {
   color: crimson;
   font-family: 'Montserrat', sans-serif;
-  -webkit-animation-name: example;
-          animation-name: example;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation: example 3s ease-in-out infinite 2s;
+          animation: example 3s ease-in-out infinite 2s;
 }
 
 @-webkit-keyframes example {
